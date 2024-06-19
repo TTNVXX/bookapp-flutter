@@ -33,6 +33,7 @@ class MyApp extends StatelessWidget {
         ),
       ),
       home: MyHomePage(),
+      debugShowCheckedModeBanner: false,
       routes: {
         '/login': (context) => LoginPage(),
         '/signup': (context) => SignUpPage(),
